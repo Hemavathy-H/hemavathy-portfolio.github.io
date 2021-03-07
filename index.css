@@ -159,7 +159,7 @@ img#icon  {
 @media screen and (max-width: 548px)   {    /*Mobile view*/
     #HomePage   {
         font-size: 22px;
-        padding: 60px 10px 20px 60px;
+        padding: 60px 10px 20px 40px;
         line-height: 70px;
     }  
     
