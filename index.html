@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" count="20">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Hemavathy-MCA-Personal Portfolio</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="index.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <script>
+        window.addEventListener('load', () => {
+            let progress_bar = document.querySelectorAll('.progress_bar');
+            let values = [
+                '85%',
+                '70%',
+                '50%',
+                '30%',
+                '60%'
+            ];
+            progress_bar.forEach((progress, index) => {
+                progress.style.width = values[index];
+            });
+        });
+        /*Javascript code for Progress bar in Skill section*/
+    </script>
+
+    <!--Menu Section
+    ************-->
+    <header>
+        <nav>
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle" />
+            <ul class=" Menu">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Works">Work</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Home Page
+    *********-->
+    <nav id="HomePage">
+        <section class="outline">
+            <h3><b>Hello, I am</b></h3><br />
+            <h1 id="name">Hemavathy Harikrishnan</h1>
+            <p>A computer science student</p><br>
+
+            <a href="mailto: hemahari163@gmail.com"><button class="item1">Mail me</button></a>
+
+            <div class="img-container">
+                <img id="icon" src="https://i.pinimg.com/originals/4b/bd/4f/4bbd4f05b18c70a8347b070f460b853a.png"
+                    alt="Image not supported" />
+            </div>
+        </section>
+    </nav>
+
+    <!--About Page
+    **********-->
+    <nav id="About">
+        <h1>About</h1>
+        <div class="img_container">
+            <img id="logo" src="https://i.pinimg.com/originals/18/55/9e/18559e891a30df00546c273b672830a8.jpg"
+                alt="Image not found" />
+        </div>
+        <section class="About_container">
+            <h4 class="About_title">Hi! I'm Hemavathy.</h4>
+            <section class="About_content">
+                <p>I am currently pursuing <span>M</span>asters in <span>C</span>omputer <span>A</span>pplications, at
+                    Vellore Institute of Technology in Vellore, graduating in 2021.</p><br />
+                <p>With Interest in the field of Web Development, I started learning HTML5, CSS3 and Javascript. This
+                    portfolio is a part of my learning, which enable me to create a Responsive website.</p>
+            </section>
+        </section>
+    </nav>
+
+    <!--Education Page
+    **************-->
+    <nav id="Education" class="Education1">
+        <h1>Education</h1> <br />
+        <section class="Education_container">
+            <ul class="Education_content">
+                <li> <i class='fas fa-user-graduate'>&emsp;</i>
+                    <span>2019 - 2021</span> <br /><br />
+                    <a target="_blank" class="Education_title"
+                        href="https://simple.wikipedia.org/wiki/Masters_of_Computer_Applications">
+                        &emsp;&emsp;Masters of Computer Applications</a> <br />
+                    <a class="Education_site" href="https://vit.ac.in/" target="_blank">
+                        &emsp;&emsp;Vellore Institute ofTechnology, Vellore.</a><br />
+                    &emsp;&emsp;CGPA: 8.91 (till I year)<br /><br />
+                </li>
+
+                <li> <i class='fas fa-user-graduate'>&emsp;</i>
+                    <span>2016 - 2019</span> <br /><br />
+                    <a target="_blank" class="Education_title"
+                        href="https://en.wikipedia.org/wiki/Bachelor_of_Computer_Application">
+                        &emsp;&emsp;Bachelor of Computer Applications </a> <br />
+                    <a class="Education_site" href="http://www.mkjc.in/" target="_blank">
+                        &emsp;&emsp;MKJC, Vaniyambadi.</a><br />
+                    &emsp;&emsp;CGPA: 8.74<br /><br />
+                </li>
+
+                <li> <i class='fas fa-user-graduate'>&emsp;</i>
+                    <span>2016</span> <br /><br />
+                    <a target="_blank" class="Education_title"
+                        href="https://en.wikipedia.org/wiki/Higher_Secondary_School_Certificate#India">
+                        &emsp;&emsp;Higher Secondary: State Board</a> <br />
+                    <a class="Education_site maxwidth" href="http://srivivekanandaschool.com/" target="_blank">
+                        &emsp;&emsp;Sri
+                        Vivekanandha Matric Hr Sec School, Ambur.</a>
+                    <a class="Education_site minwidth" href="http://srivivekanandaschool.com/" target="_blank">
+                        &emsp;&emsp;SVMHS School, Ambur.</a>
+                    <br />
+                    &emsp;&emsp;Percentage: 88.5%<br /><br />
+                </li>
+            </ul>
+        </section>
+    </nav>
+
+    <!--Skill Section
+    *************-->
+    <nav id="Skills">
+        <h1 id="Skill_title">Skills</h1>
+        <section class="Skill_box">
+            <p>HTML5</p>
+            <div class="progress">
+                <div class="progress_bar">
+                    <span>85%</span>
+                </div>
+            </div>
+            <p>CSS3</p>
+            <div class="progress">
+                <div class="progress_bar">
+                    <span>70%</span>
+                </div>
+            </div>
+            <p>Javascript</p>
+            <div class="progress">
+                <div class="progress_bar">
+                    <span>50%</span>
+                </div>
+            </div>
+            <p>PHP</p>
+            <div class="progress">
+                <div class="progress_bar">
+                    <span>30%</span>
+                </div>
+            </div>
+            <p>C, C++, Java, Python</p>
+            <div class="progress">
+                <div class="progress_bar">
+                    <span>60%</span>
+                </div>
+            </div>
+        </section>
+        <section class="img_skills">
+            <img id="icon2" src="https://i.pinimg.com/originals/d0/b4/38/d0b4384ce9cf2410a40458d09f28535a.jpg"
+                alt="Image not supported" height="400px" />
+        </section>
+    </nav>
+
+    <!--Work section
+    ************-->
+    <nav id="Works">
+        <h1 id="My Work">Work</h1>
+        <section class="work_container">
+            <span class="project_box">
+                <a href="https://drive.google.com/file/d/1WFsxDilFHz_Zadzj2DVLkMgFgza3zIcb/view?usp=sharing"
+                    target="_blank">
+                    <img id="img1" class="project_icon"
+                        src="https://i.pinimg.com/originals/c7/1a/30/c71a30d9787bd5defdb54c72108af088.jpg"
+                        alt="Image not found" title="Air Writing Recognition using Machine Learning" />
+                </a>
+            </span>
+
+            <span class="project_box">
+                <a href="https://drive.google.com/file/d/1db8d2odlb0eJjtE4NzKwFLXmTTHmA1EP/view?usp=sharing"
+                    target="_blank">
+                    <img id="img2" class="project_icon"
+                        src="https://i.pinimg.com/originals/58/e1/9d/58e19d3f13dedb60c92a23d826ed5ecd.jpg"
+                        alt="Image not found" title="Deadlock Prevention using Banker's Algorithm" />
+
+                </a>
+            </span>
+
+            <span class="project_box">
+                <a href="https://hemavathy-h.github.io/HemavathyResume/" target="_blank">
+                    <img id="img3" class="project_icon"
+                        src="https://i.pinimg.com/originals/22/ab/83/22ab83f65a596e528e9e406f71456955.jpg"
+                        alt="Image not found" title="Digital Resume using HTML5 and Basic CSS3" />
+                </a>
+            </span>
+
+            <span class="project_box">
+                <a href="https://drive.google.com/file/d/1fIP9tQNF6WiUE4Nkfqf-zGpYJuIPmGL8/view?usp=sharing"
+                    target="_blank">
+                    <img id="img4" class="project_icon"
+                        src="https://i.pinimg.com/originals/90/e4/f2/90e4f27d7f4dd92444c6ca8047e28271.jpg"
+                        alt="Image not found" title="Analysis and Prediction on Water Quality" />
+                </a>
+            </span>
+        </section>
+
+
+
+        <h4>Interest + Fun</h4>
+        <section class="Interest_container">
+            <span class="container">
+                <img src="https://i.pinimg.com/originals/76/c1/71/76c171f089b37febd47c455670f8dfdc.jpg"
+                    alt="Image not suported" title="Making Responsive Website Design" />
+            </span>
+
+            <span class="container">
+                <img src="https://i.pinimg.com/originals/36/7c/85/367c85ae206eaedb8ebf59f6ca72f69d.webp"
+                    alt="Image not suported" title="Designing and Tailoring Clothes" />
+            </span>
+
+            <span class="container">
+                <img src="https://i.pinimg.com/originals/44/d9/a9/44d9a90d340b5188e372387c5ca2ad77.jpg"
+                    alt="Image not suported" title="Crafts and DIYs" />
+            </span>
+
+            <span class="container">
+                <img src="https://i.pinimg.com/originals/34/4f/05/344f05297d64b155866bed071851cd42.jpg"
+                    alt="Image not suported" title="Drawing and Paintings" />
+            </span>
+        </section>
+    </nav>
+
+    <!--Contact section
+    ***************-->
+    <nav id="Contact">
+        <a href="#HomePage"><button id="BackToHome"></button></a>
+        <h1>Thank you</h1>
+        <section class="Contact_container">
+            <ul id="socialmedia" style="list-style-type:none;">
+                <li id="socialmedia">
+                    <a href="https://www.linkedin.com/in/hemavathy-h-b24a941a3" target="_blank"><i
+                            class='fab fa-linkedin-in'></i></i></a>
+                </li>
+                <li id="socialmedia">
+                    <a href="https://github.com/Hemavathy-H" target="_blank"><i class='fab fa-github'></i></a>
+                </li>
+                <li id="socialmedia">
+                    <a href="https://twitter.com/hema_here_" target="_blank"><i class='fab fa-twitter'></i></a>
+                </li>
+                <li id="socialmedia">
+                    <a href="https://www.instagram.com/_hema_hari_/" target="_blank"><i
+                            class='fab fa-instagram'></i></a>
+                </li>
+                <li id="socialmedia">
+                    <a href="https://www.hackerrank.com/hemahari163" target="_blank"><i
+                            class='fab fa-hackerrank'></i></a>
+                </li>
+            </ul>
+        </section>
+    </nav>
+</body>
+
+</html>
